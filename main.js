@@ -6,6 +6,11 @@ main.get('/', (req, res) => {
   res.send('Hello ayman!')
 })
 
+main.get('/ribath', (req, res) => {
+  res.send('Hello ribath!')
+})
+
+
 main.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
