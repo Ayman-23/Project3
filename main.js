@@ -10,6 +10,10 @@ main.get('/ribath', (req, res) => {
   res.send('Hello ribath!')
 })
 
+main.get('/adib', (req, res) => {
+  res.send('Hello adib!')
+})
+
 
 main.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
